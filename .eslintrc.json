@@ -1,0 +1,18 @@
+{
+    "rules": {
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": "error",
+        "semi": [
+            "error",
+            "always"
+        ],
+        "space-before-function-paren": [
+            "error",
+            "never"
+        ]
+    },
+    "plugins": [
+        "@typescript-eslint/eslint-plugin"
+    ],
+    "parser": "@typescript-eslint/parser"
+}
