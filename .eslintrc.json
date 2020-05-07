@@ -1,20 +1,25 @@
 {
-    "rules": {
-        "no-unused-vars": "off",
-        "@typescript-eslint/no-unused-vars": "error",
-        "no-useless-constructor": "off",
-        "@typescript-eslint/no-useless-constructor": "error",
-        "semi": [
-            "error",
-            "always"
-        ],
-        "space-before-function-paren": [
-            "error",
-            "never"
-        ]
-    },
+    "parser": "@typescript-eslint/parser",
     "plugins": [
         "@typescript-eslint/eslint-plugin"
     ],
-    "parser": "@typescript-eslint/parser"
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "rules": {
+        "@typescript-eslint/quotes": [
+            "error",
+            "single"
+        ],
+        "@typescript-eslint/semi": [
+            "error",
+            "always"
+        ],
+        "@typescript-eslint/indent": [
+            "error",
+            4
+        ]
+    }
 }

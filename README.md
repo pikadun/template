@@ -1,6 +1,6 @@
 # Template
 
-A template that integrate `mocha`, `nyc`, `standard` and `typescript`.
+A template that integrate `mocha`, `nyc`, `eslint` and `typescript`.
 
 ## Scripts
 

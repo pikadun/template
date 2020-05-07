@@ -1,7 +1,7 @@
 class Application {
-  test() {
-    return 1;
-  }
+    test(): number {
+        return 1;
+    }
 }
 
 export default Application;
