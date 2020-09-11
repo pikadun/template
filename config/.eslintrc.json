@@ -1,11 +1,10 @@
 {
     "parser": "@typescript-eslint/parser",
     "plugins": [
-        "@typescript-eslint/eslint-plugin"
+        "@typescript-eslint"
     ],
     "extends": [
         "eslint:recommended",
-        "plugin:@typescript-eslint/eslint-recommended",
         "plugin:@typescript-eslint/recommended"
     ],
     "rules": {
@@ -20,6 +19,12 @@
         "@typescript-eslint/indent": [
             "error",
             4
+        ],
+        "prefer-const": [
+            "error",
+            {
+                "destructuring": "all"
+            }
         ]
     }
 }
