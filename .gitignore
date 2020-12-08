@@ -1,9 +1,10 @@
+# Test result
 .nyc/
-
-.vscode/launch.json
-
 coverage/
 
+# Modules
 node_modules/
 
+# Compile output
 lib/
+types/
